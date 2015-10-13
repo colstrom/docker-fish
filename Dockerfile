@@ -1,8 +1,4 @@
-FROM colstrom/ubuntu-core
+FROM colstrom/alpine:main
+RUN apk-install fish
 
-RUN add-apt-repository --yes ppa:fish-shell/release-2 \
-    && apt-get update \
-    && apt-get --assume-yes dist-upgrade \
-    && apt-get --assume-yes install fish \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+ENTRYPOINT ["/usr/bin/fish"]
