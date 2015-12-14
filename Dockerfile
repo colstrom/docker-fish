@@ -1,4 +1,5 @@
-FROM colstrom/alpine:main
+FROM colstrom/alpine
+
 RUN apk-install fish mdocml-apropos
 
-ENTRYPOINT ["/usr/bin/fish"]
+ENTRYPOINT ["fish"]
