@@ -4,8 +4,8 @@ a modern interactive commandline shell
 
 ## Tags
 
-* `latest` uses `colstrom/alpine` as a base. It weighs in at ~13MB, but provides nothing beyond fish.
-* `ubuntu` uses `colstrom/ubuntu-core` as a base. It weighs in at ~270MB (~42MB on top of `ubuntu-core`)
+* `latest` uses `colstrom/alpine` as a base.
+* `ubuntu` uses `colstrom/ubuntu-core` as a base.
 
 ## License
 
