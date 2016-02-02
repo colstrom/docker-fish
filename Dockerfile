@@ -1,5 +1,8 @@
 FROM colstrom/alpine
 
-RUN apk-install fish mdocml-apropos
+RUN apk-install \
+                bc \
+                fish \
+                mdocml-apropos
 
 ENTRYPOINT ["fish"]
