@@ -5,7 +5,7 @@ a modern interactive commandline shell
 ## Tags
 
 * `latest` uses `colstrom/alpine` as a base.
-* `ubuntu` uses `colstrom/ubuntu-core` as a base.
+* `ubuntu` uses `colstrom/ubuntu` as a base.
 
 ## License
 
