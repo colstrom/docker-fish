@@ -1,8 +1,10 @@
 FROM colstrom/alpine
 
-RUN apk-install \
-                bc \
-                fish \
-                mdocml-apropos
+RUN package install \
+                    bc \
+                    fish \
+                    groff \
+                    mdocml-apropos \
+                    util-linux
 
 ENTRYPOINT ["fish"]
